@@ -1,7 +1,9 @@
 # ML-Decision Project: Dynamic Extension
 
 ## Overview
-This repository implements a dynamic extension of the multi-player multi-armed bandit (MPMAB) framework. In this dynamic setting, the environment supports:
+This repository implements the implement the methods presented in the paper " Competing for Shareable Arms in Multi-Player Multi-
+Armed Bandits", and dynamic extension of the multi-player multi-armed bandit (MPMAB) framework. 
+In the dynamic setting, the environment supports:
 - **Time-varying rewards:** Each arm’s expected reward updates over time (e.g., via a sinusoidal fluctuation).
 - **Heterogeneous player preferences:** Each player receives a personalized reward based on a preference matrix, so that even when sharing the same arm, rewards are scaled differently.
 
