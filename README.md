@@ -123,10 +123,12 @@ Provides plotting functions to visualize results:
 ## Installation
 
 1. **Clone the Repository:**
+```bash
+git clone https://github.com/yourusername/ml-decision-dynamic.git
+cd ml-decision-dynamic
+```
 
-   ```bash
-   git clone https://github.com/yourusername/your-repo.git
-   cd your-repo```
+
 **install the Required Packages:**
 ```bash
 pip install -r requirements.txt
