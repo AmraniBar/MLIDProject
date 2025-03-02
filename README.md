@@ -189,7 +189,7 @@ python simulation.py
 
 
 ## Overview
-This repository implements the methods presented in the paper "Competing for Shareable Arms in Multi-Player Multi-Armed Bandits" and dynamic extension of the multi-player multi-armed bandit (MPMAB) framework.
+In our extension, we introduce dynamic rewards that evolve over time (e.g., following a sinusoidal pattern or a drifting mean) rather than remaining fixed. We also incorporate heterogeneous player preferences, allowing each player to receive a personalized share of the arm’s reward. By combining these two aspects, the SMAA framework becomes more realistic, modeling scenarios where resource quality fluctuates and different users value the same resource differently—such as in online advertising, recommender systems, and financial markets..
 
 In the dynamic setting, the environment supports:
 - **Time-varying rewards:** Each arm's expected reward updates over time (e.g., via a sinusoidal fluctuation)
