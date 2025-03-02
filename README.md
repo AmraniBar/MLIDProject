@@ -20,8 +20,8 @@ This repository implements the Selfish Multi-Player Multi-Armed Bandit (MPMAB) a
 - [Running Experiments](#running-experiments)
   - [Test SMAA Experiment](#test-smaa-experiment)
   - [Full-Scale Experiment](#full-scale-experiment)
-- [Requirements](#requirements)
-- [ ML-Decision Project: Dynamic Extension](#ML-Decision_Project:_Dynamic_Extension)
+- [Dynamic Extension](#Dynamic_Extension)
+- - [Requirements](#requirements)
 - [License](#license)
 
 ## Overview
@@ -185,7 +185,7 @@ python simulation.py
 ```
 
 
-## ML-Decision Project: Dynamic Extension
+## Dynamic Extension
 
 
 ## Overview
@@ -203,7 +203,7 @@ The project provides dynamic versions of all core components:
 - **Visualization:** Generates plots (bar charts and time-series) for the recorded performance metrics
 - **Utilities:** Provides helper functions for dynamic updates (e.g., KL divergence for Bernoulli distributions, fluctuation functions)
 
-## Project Structure
+## Extantion Structure
 ```
 ├── environment_dynamic.py       # Dynamic MPMAB environment with time-varying rewards and player preferences
 ├── equilibrium_dynamic.py       # Computes instantaneous Nash equilibrium for the dynamic scenario
